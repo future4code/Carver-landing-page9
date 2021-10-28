@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+min-height: 100vh;
+display: grid;
+grid-template-rows: 60px 1fr 60px;
+grid-template-columns: 300px 1fr;
+}
+
+/* html{
+  height: 100vh;  
+} */
+/* 
+body, header, footer, section, main, div{
+    border: 1px solid red;
+} */
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+
+header{
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    grid-column: 1/-1;
+}
+
+header, footer{
+    background-color: #ff7b26;
+}
+
+main{
+    height: 100%;
+}
+
+.produtos{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 10px;
+    column-gap: 10px;
+    margin: 50px;
+}
+
+.card-produtos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* align-items: center; */
+    text-align: justify;
+    border: 15px solid transparent;
+}
+
+.card-produtos:hover{
+    cursor: pointer;
+    box-shadow: 2px 2px 2px 2px black;
+    /* border-radius: 5px; */
+}
+
+.img-card{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.preco{
+    text-align: end;
+
+}
+.veg{
+    color: green;
+}
+
+.botao{
+    padding: 10px;
+    width: 100%;
+    background: #ff7b26;
+    border-radius: 5px;
+}
+.botao:hover{
+    background: #9c4003;
+    cursor: pointer;
+}
+footer{
+    text-align: center;
+    flex-grow: 0;
+    height: 45px;
+    grid-column: 1/-1;
+}
+footer p{
+    padding: 1%;
+    font-weight: 600;
+}
