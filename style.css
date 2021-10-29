@@ -4,7 +4,7 @@
 }
 
 .corPrincipal{
-    color: #51260E;
+    color: #5D1917;
 }
 
 ul{
@@ -28,7 +28,13 @@ header{
     display: flex;
     flex-direction: row;
     align-items: flex-end;
-    justify-content: space-around;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+
+    background-color: rgba(255,255,255,0.8);
+    border-bottom: 2px solid #5D1917;
+    color: #5D1917;
 }
 
 .logo{
@@ -44,12 +50,14 @@ header img{
 
 .menu{
     min-width: 50%;
+    font-size: 18px;
+    margin-right: 3%;
 }
 
 .menu ul{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .menu ul a{
@@ -57,11 +65,6 @@ header img{
     color: black;
     margin-right: 2%;
 }
-
-header, footer{
-    background-color: #ff7b26;
-}
-
 
 main{
     height: 100%;

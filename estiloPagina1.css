@@ -1,8 +1,8 @@
-main{
+gradeProdutos{
     min-height: 100vh;
     display: grid;
-    grid-template-rows: 1fr 60px
-;
+    grid-template-rows: 1fr 60px;
+    margin-top: 2%;
 }
 
 .produtos{
@@ -24,7 +24,7 @@ main{
 
 .card-produtos:hover{
     cursor: pointer;
-    box-shadow: 2px 2px 2px 2px black;
+    box-shadow: 2px 2px 11px 2px #5d1917;
     /* border-radius: 5px; */
 }
 
@@ -42,13 +42,18 @@ main{
 }
 
 .botao{
-    padding: 10px;
+    padding: 8px;
     width: 100%;
-    background: #ff7b26;
+    background-color: white;
     border-radius: 5px;
+    color: #5d1917;
+    font-size: 17px;
+    font-weight: bold;
+    border: 1px solid #5d1917;
 }
 .botao:hover{
-    background: #9c4003;
+    background: #5d1917;
+    color: #fff;
     cursor: pointer;
 }
 footer{

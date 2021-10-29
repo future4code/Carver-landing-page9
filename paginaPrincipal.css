@@ -39,11 +39,11 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .categoria{
-    width: 20%;
+    /*width: 20%;*/
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -90,9 +90,53 @@
     background-image: url(img/fastfood.jpg);
 }
 
-.congelados{
-    height: 100px;
-    background-color: black;
+/*estilopagina 1*/
+
+.destaquesVeganos, .destaquesVegetariano, .destaquesBoteco, .destaquesFastFood, .destaquesMercado, .destaquesBebidas, .destaquesLowCarb{
+    display: none;
+}
+.card-produtos{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: justify;
+    border: 15px solid transparent;
 }
 
-#vegano:cli
+.img-card{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.preco{
+    text-align: end;
+
+}
+.veg{
+    color: green;
+}
+
+.botao{
+    padding: 10px;
+    width: 100%;
+    background: #ff7b26;
+    border-radius: 5px;
+}
+.botao:hover{
+    background: #9c4003;
+    cursor: pointer;
+}
+
+/*fim*/
+
+input[type="checkbox"]{
+   display: none;
+}
+
+#catVegano:checked + .destaquesVeganos, #catVegetariano:checked + .destaquesVegetariano, #catMercado:checked + .destaquesMercado, #catBoteco:checked + .destaquesBoteco, #catFastFood:checked + .destaquesFastFood, #catBebidas:checked + .destaqueBebidas, #catLowCarb:checked + destaquesLowCarb{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
