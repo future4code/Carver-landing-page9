@@ -61,6 +61,10 @@ main{
 .nosso-time{
     border-bottom: 300px;
 }
+.descricao{
+    font-size: medium;
+    padding: 1%;
+}
 
 .formulario{
     display: flex;
