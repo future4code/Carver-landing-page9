@@ -19,11 +19,19 @@
 90deg, rgba(247,247,250,0) 0%, rgba(237,237,244,0.5) 33%, rgba(253,255,255,1) 100%);
 }
 
+.botoesBanner{
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 .fundoBanner a button{
     width: 150px;
     padding: 4%;
     background-color: transparent;
     border: 1px solid;
+    cursor: pointer;
 }
 
 .destaques{
@@ -81,3 +89,10 @@
 #FastFood{
     background-image: url(img/fastfood.jpg);
 }
+
+.congelados{
+    height: 100px;
+    background-color: black;
+}
+
+#vegano:cli

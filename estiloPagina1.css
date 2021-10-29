@@ -1,45 +1,8 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-body{
-min-height: 100vh;
-display: grid;
-grid-template-rows: 60px 1fr 60px;
-grid-template-columns: 300px 1fr;
-}
-
-/* html{
-  height: 100vh;  
-} */
-/* 
-body, header, footer, section, main, div{
-    border: 1px solid red;
-} */
-
-body{
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
-    justify-content: space-between;
-}
-
-
-header{
-    height: 60px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    grid-column: 1/-1;
-}
-
-header, footer{
-    background-color: #ff7b26;
-}
-
 main{
-    height: 100%;
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr 60px
+;
 }
 
 .produtos{
