@@ -66,6 +66,10 @@ header img{
     margin-right: 2%;
 }
 
+.menu ul a li{
+    color: #5D1917;
+}
+
 main{
     min-height: 100vh;
 }
