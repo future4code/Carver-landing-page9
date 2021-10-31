@@ -37,6 +37,10 @@ header{
     color: #5D1917;
 }
 
+main{
+    margin-top: 3%;
+}
+
 .logo{
     display: flex;
     flex-direction: row;
@@ -64,6 +68,10 @@ header img{
     text-decoration: none;
     color: black;
     margin-right: 2%;
+}
+
+.menu ul a li{
+    color: #5D1917;
 }
 
 main{
