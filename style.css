@@ -83,6 +83,7 @@ footer{
     background-color: #5D1917;
     color: #fff;
 }
+
 footer p{
     padding: 1%;
     font-weight: 600;
@@ -97,4 +98,24 @@ footer p{
     font-size: 17px;
     font-weight: bold;
     border: 1px solid #5d1917;
+}
+.rede{
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-left: 20px;
+    transition: all 0.4s ease-out;
+
+}
+
+.rede:hover{
+    cursor: pointer;
+    transform: translateY(-10px);
+
+}
+
+.icone{
+    margin: 0px auto;
+    padding: 35px;
+    width: 40px;
 }
