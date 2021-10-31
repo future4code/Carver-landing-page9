@@ -39,23 +39,20 @@ form{
 input{
     width: 600px;
     padding: 2%;
+    border-color: #5D1719;
+}
+
+input::placeholder{
+    color: #5D1719;
 }
 .fale-conosco{
     text-align: center;
 }
 .enviar{
-    padding: 8%;
-    width: 100px;
-    border-radius: 5px;
-    background-color: #ff7b26;
-    color: white;
-    font-size: 15px;
+    width: 100%;
 }
 .enviar:hover{
     cursor: pointer;
-    background-color: white;
-    color: #ff7b26;
-
 }
 .imagem-e-formulario{
     display: flex;
