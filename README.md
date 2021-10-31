@@ -9,7 +9,7 @@ status: finalizado ✔️
 + Uma página "Nossos serviços" onde são mostrados os pratos ao usuário;
 + Uma página "Quem somos" e "contato" onde o usuário pode deixar seus dados;
 
-###As tecnologias utilizadas nesse projeto foram:
+### As tecnologias utilizadas nesse projeto foram:
 <table>
   <tr>
     <td>HTML</td>
