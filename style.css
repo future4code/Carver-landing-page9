@@ -3,16 +3,13 @@
     padding: 0;
 }
 
-.corPrincipal{
-    color: #5D1917;
-}
 
 ul{
     list-style: none;
 }
 
 body, header, footer, section, main, div, label{
-    border: 1px solid red;
+    /*border: 1px solid red;*/
 }
 
 body{
@@ -76,6 +73,7 @@ header img{
 
 main{
     min-height: 100vh;
+    color: #5D1917;
 }
 
 
@@ -88,4 +86,15 @@ footer{
 footer p{
     padding: 1%;
     font-weight: 600;
+}
+
+.botaoGeral{
+    padding: 8px;
+    width: 39%;
+    background-color: #5D1916;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 17px;
+    font-weight: bold;
+    border: 1px solid #5d1917;
 }

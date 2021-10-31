@@ -104,30 +104,9 @@
     cursor: pointer;
 }
 
-#vegano{
-    background-image: url(img/vegan.jpg);
-}
-
-#vegetariano{
-    background-image: url(img/vegie.jpg);
-
-}
-
 #catMercado{
     background-image: url(img/mercado.jpg);
     background-position-y: -100px;
-}
-
-#lowCarb{
-    background-image: url(img/lowCarb.jpg);
-}
-
-#Buteco{
-    background-image: url(img/boteco.jpg);
-}
-
-#bebidas{
-    background-image: url(img/bebidas.jpg);
 }
 
 #FastFood, #congelados{
