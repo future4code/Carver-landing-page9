@@ -23,9 +23,11 @@ status: finalizado ✔️
 
 ### Como rodar essa aplicação:
 Você pode rodar essa aplicação apenas clicando no link do surge abaixo:
+http://hideous-wool.surge.sh/
 
 ### Abaixo seguem alguns prints da aplicação:
-
+![image](https://user-images.githubusercontent.com/20729709/139612726-79668037-1c3c-4229-950f-2ff71e02ac3c.png)
+![image](https://user-images.githubusercontent.com/20729709/139612772-d68922ed-720e-41ff-aec2-13e332c53941.png)
 ![WhatsApp Image 2021-10-31 at 21 42 40](https://user-images.githubusercontent.com/91394314/139607455-861e1707-0ae3-46ce-a49c-7ab06fa4f335.jpeg)
 ![WhatsApp Image 2021-10-31 at 14 03 50](https://user-images.githubusercontent.com/91394314/139607665-76601d7c-6b12-4b09-be82-37a7deb5eb4f.jpeg)
 ![WhatsApp Image 2021-10-31 at 14 03 24](https://user-images.githubusercontent.com/91394314/139607683-a5715d60-877d-471d-b8f3-90ab43820779.jpeg)
