@@ -1,11 +1,16 @@
 .banner{
     height: 500px;
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: stretch;
     background-image: url(img/banner.jpg);
     margin-top: 60px;
+}
+
+.banner p{
+    font-size: 2.5rem;
 }
 
 .fundoBanner{
@@ -178,4 +183,115 @@ input[type="checkbox"]{
     flex-direction: row;
     justify-content: space-between;
     margin-bottom: 5%;
+}
+
+.depoimentos{
+    margin-bottom: 2%;
+}
+
+.cardDepoimentos{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 2%;
+}
+
+.avatar{
+    width: 20%;
+}
+
+.avatar img{
+    width: 100%;
+}
+
+.cardTexto{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.textoNome{
+    font-weight: 600;
+}
+
+.estrelas img{
+    width: 1%;
+}
+
+.estrelas p{
+    display: inline-block;
+}
+
+
+@media screen and (min-device-width : 320px) and (max-device-width : 480px){
+   
+    .banner{
+       height: 250px; 
+    }
+
+    .banner p{
+        font-size: 1.5rem;
+    }
+
+    .destaques{
+        flex-direction: column;
+    }
+
+    .fundoCard button{
+        width: 100%;
+        font-size: 10px;
+    }
+    .fundoCard p{
+       font-size: 1em;
+    }
+
+    .painel{
+        width: 100%;
+    }
+
+    #catMercado, #congelados{
+       background-position-y: 0; 
+    }
+
+    .destaquesMes{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card-produtos{
+        width: 90%;
+        margin-top: 4%;
+    }
+
+    .cardTexto{
+        padding-left: 4%;
+    }
+
+    .avatar{
+        width: 100%;
+    }
+
+    .cardDepoimentos{
+        align-items: flex-end;
+        margin-bottom: 2%;
+    }
+
+    .estrelasMobile{
+        width: 45%;
+        margin-left: 2%;
+    }
+    .textoNome{
+        display: flex;
+    }
+
+    .estrelasMobile img{
+        width: 8%;
+        margin-left: 1%;
+    }
+
+    .esconder{
+        display: none;
+    }
+
 }
