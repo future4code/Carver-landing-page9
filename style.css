@@ -7,6 +7,10 @@
 ul{
     list-style: none;
 }
+a{
+    text-decoration: none;
+    color: #5D1917;
+}
 
 body, header, footer, section, main, div, label{
    /* border: 1px solid red;*/
@@ -36,6 +40,11 @@ header{
 
 main{
     margin-top: 3%;
+}
+
+header a{
+    display: flex;
+    align-items: center;;
 }
 
 .logo{
@@ -133,6 +142,20 @@ footer p{
 }
 
 @media screen and (min-device-width : 360px) and (max-device-width : 480px){
+    header img{
+        width: 45%;
+    }
+
+    header a{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .menu{
+        margin-right: 10%;
+    }
+    
     main{
         margin-top: 3%;
     }
@@ -148,6 +171,10 @@ footer p{
     }
     footer section{
         width: 100%;
+    }
+
+    .esconder{
+        display: none;
     }
 
     .rede{

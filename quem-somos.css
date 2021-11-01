@@ -97,16 +97,40 @@ input::placeholder{
         margin-top: 20%;
     }
     .membros{
-        display: grid;
+        flex-direction: column;
+    }
+
+    .foto1, .foto2, .foto3{
+        margin: 10% 0;
+
     }
     .formulario{
-        display: grid;
+        align-items: center;
     }
+
+    form{
+        width: 100%;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 2%;
+    }
+
+    form div{
+        width: 90%;
+    }
+    .enviar{
+        width: 50%;
+    }
+
     .imagem-e-formulario{
-        display: grid;
+        flex-direction: column;
+    }
+    .imagem-e-formulario img{
+        width: 100%;
     }
     input{
-        width: 200px;
         padding: 2%;
+        width: 95%;
     }
-    }
+}
