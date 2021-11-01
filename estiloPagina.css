@@ -63,16 +63,6 @@ main{
     color: #fff;
     cursor: pointer;
 }
-footer{
-    text-align: center;
-    flex-grow: 0;
-    height: 45px;
-    grid-column: 1/-1;
-}
-footer p{
-    padding: 1%;
-    font-weight: 600;
-}
 
 @media screen and (min-device-width : 360px) and (max-device-width : 480px){
     .produtos{
